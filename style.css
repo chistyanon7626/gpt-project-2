@@ -19,4 +19,32 @@ body{
     box-shadow: 0 10px 20px rgba(0,0,0,0.08);
     text-align: center;
 }
-
+h1{
+    color:#1e3a8a;
+    font-weight: bold;
+}
+.bold{
+    color:#2563eb;
+    font-weight: bold;   
+}
+.italic{
+    color:#16a34a;
+    font-style: italic;
+}
+.list{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.button{
+    background: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor:pointer
+    
+}
+.button:hover{
+    transition: 0.03s;
+    background-color:#ea580c;
+}
